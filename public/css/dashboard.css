@@ -1,0 +1,99 @@
+
+/* Start Navbar */
+    .main{
+        height: 100vh;
+    }
+/*
+    .navbar{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px;
+    } */
+
+    .navbar{
+        border-radius: solid 10px;
+    }
+
+    .navbar a:hover{
+        color: green;
+    }
+/* End Navbar */
+
+/* Start Sidebar */
+
+    .sidebar{
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+
+    }
+
+    .sidebar a{
+        text-decoration: none;
+        display: block;  /*block supaya kebawah trus*/
+        padding: 20px 20px;
+        color: #fff;
+    }
+
+    .sidebar a:hover{
+        background-color: rgb(57, 57, 57);
+    }
+
+    .content{
+        padding: 100px;
+    }
+
+    .sidebar a.active{
+        background-color: rgb(22, 20, 20);
+        border-right: solid 4px orange;
+    }
+
+    .card-data{
+        border: solid 1px;
+        color: rgb(0, 0, 0);
+        padding: 20px 40px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+
+    .card-data.book{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card-data.category{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card-data.user{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card-data i{
+        font-size: 50px;
+    }
+
+    .card-desc{
+        font-size: 30px;
+    }
+
+    .card-count{
+        font-size: 20px;
+    }
+
+/* END SIDEBAR */
+
+/* Start User data */
+
+    .table{
+        border-radius:10px 10px;
+        box-shadow: 5px 5px;
+        border: solid 1px;
+    }
+
+    .table thead{
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+    }
+/* End Data User */
+
+
+/* Start Footer */
